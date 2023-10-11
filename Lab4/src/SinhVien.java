@@ -1,32 +1,22 @@
-import java.util.ArrayList;
-import java.util.List;
 
 public class SinhVien extends Person{
-	private List<String> danhSachChuyenNganh = new ArrayList<String>();
+	private String chuyenNganh;
 
 	public SinhVien(String email, String hoTen, int namSinh, String gioiTinh, String soDienThoai, String diaChi,
-			List<String> danhSachChuyenNganh) {
+			String chuyenNganh) {
 		super(email, hoTen, namSinh, gioiTinh, soDienThoai, diaChi);
-		this.danhSachChuyenNganh = danhSachChuyenNganh;
+		this.chuyenNganh = chuyenNganh;
 	}
 
-	public List<String> getDanhSachChuyenNganh() {
-		return danhSachChuyenNganh;
+	public String getChuyenNganh() {
+		return chuyenNganh;
 	}
 
-	public void setDanhSachChuyenNganh(List<String> danhSachChuyenNganh) {
-		this.danhSachChuyenNganh = danhSachChuyenNganh;
-	}
-
-	public void cacMonHocChuyenNganh(String monHocCN) {
-		danhSachChuyenNganh.add(monHocCN);
-	}
-
-	public void hienThiMonHocChuyenNganh() {
-		System.out.println("Cac mon hoc chuyen nganh: ");
-		for (String monHocCN : danhSachChuyenNganh) {
-			System.out.println(monHocCN);
-		}
+	public void setChuyenNganh(String chuyenNganh) {
+		this.chuyenNganh = chuyenNganh;
 	}
 	
+	public void hienThiMonHocChuyenNganh() {
+		System.out.println("Danh sach mon hoc theo chuyen nganh:" + this.chuyenNganh);
+	}
 }
