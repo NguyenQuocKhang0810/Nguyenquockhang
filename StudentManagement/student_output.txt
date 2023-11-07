@@ -1,0 +1,4 @@
+Student{id=1, firstName=John, lastName=Doe, phoneNumber=1234567890, address=123 Main St}
+Student{id=2, firstName=Alice, lastName=Smith, phoneNumber=9876543210, address=456 Elm St}
+Student{id=3, firstName=Bob, lastName=Johnson, phoneNumber=5555555555, address=789 Oak St}
+Student{id=100, firstName=NQK, lastName=K, phoneNumber=1023401564215, address=quy nhon bd}

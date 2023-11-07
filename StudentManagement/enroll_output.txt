@@ -1,0 +1,5 @@
+Enroll{enrollID=1, studentID=1, subjectID=101}
+Enroll{enrollID=2, studentID=1, subjectID=102}
+Enroll{enrollID=3, studentID=2, subjectID=101}
+Enroll{enrollID=4, studentID=3, subjectID=103}
+Enroll{enrollID=100, studentID=200, subjectID=300}

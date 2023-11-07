@@ -1,0 +1,3 @@
+Product{productID=ABC123, productName=Product1, unitPrice=50.0, quantity=100, version=Version1, productManufacturingDate=100}
+Product{productID=DEF456, productName=Product2, unitPrice=40.0, quantity=75, version=Version2, productManufacturingDate=200}
+Product{productID=GHI789, productName=Product3, unitPrice=60.0, quantity=150, version=Version3, productManufacturingDate=300}

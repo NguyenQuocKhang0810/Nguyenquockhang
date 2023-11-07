@@ -1,0 +1,3 @@
+ABC123,Product1,50.0,100,Version1,100
+DEF456,Product2,40.0,75,Version2,200
+GHI789,Product3,60.0,150,Version3,300

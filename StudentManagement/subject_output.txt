@@ -1,0 +1,4 @@
+Subject{id=101, name=Math, credits=3, professor=Dr. Smith}
+Subject{id=102, name=History, credits=4, professor=Prof. Johnson}
+Subject{id=103, name=Physics, credits=4, professor=Dr. Brown}
+Subject{id=200, name=library, credits=20, professor=Namkun}
